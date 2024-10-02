@@ -17,7 +17,7 @@ setwd("/mnt/6099002D98FFFF72/library/amse/master2/S1B/reduction\ information/")
 rm(list=ls())
 
 #Load the database
-articles_all = read.csv("articles_data.csv")
+articles_all = read.csv("data/phpgBMvy4.csv")
 
 #Pre-visualize the data
 head(articles_all)

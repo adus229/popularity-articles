@@ -1,10 +1,4 @@
-# installation of pakcages
-
-install.packages("vtable")
-install.packages("ggcorrplot")
-install.packages("lares")
-
-# importation of pakcage
+# importation of package
 
 library("vtable")
 library("ggplot2")
@@ -14,7 +8,7 @@ library("gridExtra")
 
 # importation de la base
 
-df = read.csv(file = "C:/Users/Dell/Desktop/Projet AMS/articles_data.csv",sep =",", header = TRUE)
+df = read.csv(file = "phpgBMvy4.csv",sep =",", header = TRUE)
 
 # filter and take importants variables
 
@@ -42,11 +36,8 @@ stargazer(df[var],omit.summary.stat = c("p25", "p75"))
 
 # histogramm number of share (for target variables)
 
-ggplot(df, aes(x = log(shares))) +
-  
-  geom_histogram(aes(y= ..density..), colour = 1, fill = "white") +
-  
-  geom_density(lwd= 1, colour = 4, fill = 4, alpha = 0.25)
+ggplot(df, aes(x = shares)) +
+geom_histogram()
 
 # histogramm number of share video
 
@@ -125,6 +116,13 @@ graph5 = ggplot(df, aes(x = as.factor(data_channel_is_lifestyle))) +
   
   labs( x = "Lifestyle or not", y = "count")
 
+# graph5 = ggplot(df, aes(as.factor(data_channel_is_lifestyle), fill = data_channel_is_lifestyle)) + 
+#   
+#   geom_bar(stat = "count", fill = "gold3" , color = "blue") +
+#   
+#   labs( x = "Lifestyle or Not ", y = " count")
+
+# 
 
 graph6 = ggplot(df, aes(x = as.factor(data_channel_is_world))) +
   
