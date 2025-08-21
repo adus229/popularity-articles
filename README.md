@@ -12,7 +12,7 @@
     - [Model Comparison](#model-comparison)
   - [Conclusion](#conclusion)
   - [How to Run the Project](#how-to-run-the-project)
-    - [1️⃣ Using Python directly](#1️⃣-using-python-directly)
+    - [1️⃣ Using Python or R directly](#1️⃣-using-python-or-r-directly)
     - [2️⃣ Using the Makefile (recommended for convenience)](#2️⃣-using-the-makefile-recommended-for-convenience)
 
 ## Introduction
@@ -67,7 +67,7 @@ You can run this project in **two ways**:
 
 ---
 
-### 1️⃣ Using Python directly
+### 1️⃣ Using Python or R directly
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
