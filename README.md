@@ -12,6 +12,8 @@
     - [Model Comparison](#model-comparison)
   - [Conclusion](#conclusion)
   - [How to Run the Project](#how-to-run-the-project)
+    - [1️⃣ Using Python directly](#1️⃣-using-python-directly)
+    - [2️⃣ Using the Makefile (recommended for convenience)](#2️⃣-using-the-makefile-recommended-for-convenience)
 
 ## Introduction
 This project focuses on predicting the popularity of articles published on the Mashable website. The popularity of an article is a key indicator for web editors, bloggers, and publishers to evaluate the reach and impact of their content. The project explores various machine learning models to determine which method can best predict an article's popularity, measured by the number of shares.
@@ -54,9 +56,53 @@ Several models were applied to predict article popularity:
 The Random Forest and GAM models performed equally well, both achieving the lowest RMSE scores, making them the best candidates for predicting article popularity. The PCA model also performed surprisingly well, closely matching the performance of the OLS model.
 
 ## Conclusion
-The study shows that machine learning models, particularly Random Forest and GAM, are effective in predicting article popularity. While all models had their strengths, Random Forest and GAM provided the best predictive power in this case, with minimal differences in performance. 
+The study shows that machine learning models, particularly Random Forest and GAM, are effective in predicting article popularity. While all models had their strengths, Random Forest and GAM provided the best predictive power in this case, with minimal differences in performance.
 
 ## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/article-popularity-prediction.git
+The project uses two main languages, python for implementations comparisons and R for statistics, training and evaluating.
+
+The associated command are available in the MakeFile
+
+You can run this project in **two ways**:
+
+---
+
+### 1️⃣ Using Python directly
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run training & evaluation (auto-detects target column 'shares')
+python main.py --data path/to/articles.csv
+
+# Optional arguments:
+#   --target <colname>     specify target column
+#   --test_size 0.25       change test set size
+#   --seed 123             set random seed
+#   --outdir models_dir    set output directory for trained models
+```
+
+---
+
+### 2️⃣ Using the Makefile (recommended for convenience)
+```bash
+# 1. Install dependencies
+make install
+
+# 2. Train & compare models (DATA defaults to data/articles.csv if it exists)
+make train DATA=path/to/articles.csv
+
+# 3. Run tests
+make test
+
+# 4. Clean cache and models
+make clean
+
+# 5. View available commands
+make help
+```
+This approach simplifies running commands without remembering all the arguments.
+
+---
+
+💡 **Tip:** The trained models will be saved in the `models/` directory, and metrics (RMSE, MAE, R²) will be displayed in the terminal after training.

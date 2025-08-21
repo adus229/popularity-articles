@@ -1,3 +1,30 @@
-*.pdf
-
+# R history and session data
 .Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Output folders
+exports/
+figures/
+results/
+models/
+
+
+# Python or Jupyter artifacts (if mixing projects)
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+
+# OS-specific
+Thumbs.db

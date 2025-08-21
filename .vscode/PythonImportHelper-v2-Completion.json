@@ -1,0 +1,647 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnTransformer",
+        "importPath": "sklearn.compose",
+        "description": "sklearn.compose",
+        "isExtraImport": true,
+        "detail": "sklearn.compose",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleImputer",
+        "importPath": "sklearn.impute",
+        "description": "sklearn.impute",
+        "isExtraImport": true,
+        "detail": "sklearn.impute",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "SplineTransformer",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "RidgeCV",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "LassoCV",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestRegressor",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "root_mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "dump",
+        "importPath": "joblib",
+        "description": "joblib",
+        "isExtraImport": true,
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "basic_clean",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "split_features_target",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "basic_clean",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "split_features_target",
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "isExtraImport": true,
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "get_numeric_columns",
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "isExtraImport": true,
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "build_preprocessor",
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "isExtraImport": true,
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "build_preprocessor",
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "isExtraImport": true,
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "build_preprocessor",
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "isExtraImport": true,
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "compare_model_results",
+        "importPath": "src.model_evaluation",
+        "description": "src.model_evaluation",
+        "isExtraImport": true,
+        "detail": "src.model_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "compare_model_results",
+        "importPath": "src.model_evaluation",
+        "description": "src.model_evaluation",
+        "isExtraImport": true,
+        "detail": "src.model_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "make_linear_regression_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "train_and_evaluate",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_linear_regression_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_ridge_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_lasso_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_pca_linear_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_spline_ridge_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_random_forest_pipeline",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "train_and_evaluate",
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "isExtraImport": true,
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "set_random_seed",
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "isExtraImport": true,
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "infer_target_column",
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "isExtraImport": true,
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_model",
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "isExtraImport": true,
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "peekOfCode": "def load_data(filepath: str, low_memory: bool = True) -> pd.DataFrame:\n    \"\"\"Load dataset from a CSV file.\n    Parameters\n    ----------\n    filepath : str\n        Path to the CSV file.\n    low_memory : bool, default True\n        Forwarded to ``pandas.read_csv`` to reduce memory usage on wide files.\n    Returns\n    -------",
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "basic_clean",
+        "kind": 2,
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "peekOfCode": "def basic_clean(df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"Perform simple, safe cleaning operations (e.g., drop duplicates).\n    Parameters\n    ----------\n    df : pandas.DataFrame\n        Raw dataframe.\n    Returns\n    -------\n    pandas.DataFrame\n        Cleaned dataframe with duplicates removed and original index reset.",
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "split_features_target",
+        "kind": 2,
+        "importPath": "src.data_loading",
+        "description": "src.data_loading",
+        "peekOfCode": "def split_features_target(df: pd.DataFrame, target_col: str) -> Tuple[pd.DataFrame, pd.Series]:\n    \"\"\"Split a dataframe into features and target.\n    Parameters\n    ----------\n    df : pandas.DataFrame\n        Input data.\n    target_col : str\n        Name of the target column.\n    Returns\n    -------",
+        "detail": "src.data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "get_numeric_columns",
+        "kind": 2,
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "peekOfCode": "def get_numeric_columns(df: pd.DataFrame, exclude: Optional[List[str]] = None) -> List[str]:\n    \"\"\"Return numeric columns, optionally excluding some columns.\n    Parameters\n    ----------\n    df : pandas.DataFrame\n        Input data.\n    exclude : list[str] | None\n        Column names to exclude from the result.\n    Returns\n    -------",
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "build_numeric_pipeline",
+        "kind": 2,
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "peekOfCode": "def build_numeric_pipeline() -> Pipeline:\n    \"\"\"Create a robust numeric preprocessing pipeline.\n    The pipeline imputes missing values with the median and standardizes features.\n    Returns\n    -------\n    sklearn.pipeline.Pipeline\n        A preprocessing pipeline for numeric features.\n    \"\"\"\n    return Pipeline(steps=[\n        (\"imputer\", SimpleImputer(strategy=\"median\")),",
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "build_preprocessor",
+        "kind": 2,
+        "importPath": "src.feature_engineering",
+        "description": "src.feature_engineering",
+        "peekOfCode": "def build_preprocessor(df: pd.DataFrame, target_col: str) -> ColumnTransformer:\n    \"\"\"Create a ColumnTransformer that preprocesses numeric features only.\n    This project focuses on numeric features commonly found in the Mashable dataset.\n    If you later add categorical features, extend this function with appropriate encoders.\n    Parameters\n    ----------\n    df : pandas.DataFrame\n        Input dataframe to infer columns.\n    target_col : str\n        Name of the target column (will be excluded).",
+        "detail": "src.feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "compare_model_results",
+        "kind": 2,
+        "importPath": "src.model_evaluation",
+        "description": "src.model_evaluation",
+        "peekOfCode": "def compare_model_results(results: Dict[str, Dict[str, float]]) -> pd.DataFrame:\n    \"\"\"Convert a dict of model metrics into a sorted DataFrame.\n    Parameters\n    ----------\n    results : dict[str, dict[str, float]]\n        Mapping from model name to its metrics (e.g., {'rmse': ..., 'mae': ..., 'r2': ...}).\n    Returns\n    -------\n    pandas.DataFrame\n        Table sorted by RMSE ascending.",
+        "detail": "src.model_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "make_linear_regression_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_linear_regression_pipeline(preprocessor) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing and ordinary least squares regression.\n    Parameters\n    ----------\n    preprocessor : sklearn.compose.ColumnTransformer\n        Preprocessing steps to apply before modeling.\n    Returns\n    -------\n    sklearn.pipeline.Pipeline\n        End-to-end pipeline for linear regression.",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_ridge_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_ridge_pipeline(preprocessor) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing and Ridge regression with CV over alphas.\n    Returns\n    -------\n    sklearn.pipeline.Pipeline\n    \"\"\"\n    alphas = np.logspace(-3, 3, 30)\n    return Pipeline(steps=[(\"pre\", preprocessor), (\"model\", RidgeCV(alphas=alphas, store_cv_values=False))])\ndef make_lasso_pipeline(preprocessor) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing and Lasso regression with internal CV.",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_lasso_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_lasso_pipeline(preprocessor) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing and Lasso regression with internal CV.\n    Returns\n    -------\n    sklearn.pipeline.Pipeline\n    \"\"\"\n    alphas = np.logspace(-3, 1, 30)\n    return Pipeline(steps=[(\"pre\", preprocessor), (\"model\", LassoCV(alphas=alphas, max_iter=10000, n_jobs=None))])\ndef make_pca_linear_pipeline(preprocessor, n_components: int = 24) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing, PCA for dimensionality reduction, and Linear Regression.",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_pca_linear_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_pca_linear_pipeline(preprocessor, n_components: int = 24) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing, PCA for dimensionality reduction, and Linear Regression.\n    Parameters\n    ----------\n    n_components : int, default 24\n        Number of principal components to keep.\n    \"\"\"\n    return Pipeline(steps=[\n        (\"pre\", preprocessor),\n        (\"pca\", PCA(n_components=n_components, random_state=42)),",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_spline_ridge_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_spline_ridge_pipeline(preprocessor, n_knots: int = 5, degree: int = 3) -> Pipeline:\n    \"\"\"Build a \"GAM-like\" pipeline using spline basis expansion + Ridge.\n    Notes\n    -----\n    This mimics a univariate-spline GAM using scikit-learn's ``SplineTransformer``\n    applied feature-wise, followed by Ridge regression. It captures smooth non-linearities\n    without external dependencies.\n    \"\"\"\n    spline = SplineTransformer(n_knots=n_knots, degree=degree, include_bias=False)\n    return Pipeline(steps=[",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "make_random_forest_pipeline",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def make_random_forest_pipeline(preprocessor, n_estimators: int = 300, random_state: int = 42) -> Pipeline:\n    \"\"\"Build a pipeline with preprocessing and a Random Forest regressor.\n    Parameters\n    ----------\n    n_estimators : int, default 300\n        Number of trees.\n    random_state : int, default 42\n        Random seed for reproducibility.\n    \"\"\"\n    rf = RandomForestRegressor(",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def evaluate(y_true, y_pred) -> Dict[str, float]:\n    \"\"\"Compute regression metrics.\n    Returns\n    -------\n    dict\n        Dictionary containing RMSE, MAE, and R2 scores.\n    \"\"\"\n    rmse = mean_squared_error(y_true, y_pred)\n    mae = mean_absolute_error(y_true, y_pred)\n    r2 = r2_score(y_true, y_pred)",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "train_and_evaluate",
+        "kind": 2,
+        "importPath": "src.model_training",
+        "description": "src.model_training",
+        "peekOfCode": "def train_and_evaluate(pipeline: Pipeline, X_train, y_train, X_test, y_test) -> Tuple[Pipeline, Dict[str, float]]:\n    \"\"\"Fit a pipeline and evaluate it on a hold-out set.\n    Parameters\n    ----------\n    pipeline : sklearn.pipeline.Pipeline\n        Model pipeline to fit.\n    X_train, y_train, X_test, y_test\n        Train/test splits.\n    Returns\n    -------",
+        "detail": "src.model_training",
+        "documentation": {}
+    },
+    {
+        "label": "set_random_seed",
+        "kind": 2,
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "peekOfCode": "def set_random_seed(seed: int = 42) -> None:\n    \"\"\"Set global random seed for reproducibility across numpy & Python's RNGs.\n    Parameters\n    ----------\n    seed : int, default 42\n        Seed value.\n    \"\"\"\n    random.seed(seed)\n    np.random.seed(seed)\ndef infer_target_column(df: pd.DataFrame) -> str:",
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "infer_target_column",
+        "kind": 2,
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "peekOfCode": "def infer_target_column(df: pd.DataFrame) -> str:\n    \"\"\"Infer the most likely target column name.\n    Returns\n    -------\n    str\n        The inferred target column. Raises ValueError if none was found.\n    \"\"\"\n    candidates = [\"shares\", \"target\", \"y\"]\n    for c in candidates:\n        if c in df.columns:",
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_model",
+        "kind": 2,
+        "importPath": "src.utils",
+        "description": "src.utils",
+        "peekOfCode": "def save_model(pipeline, path: str) -> None:\n    \"\"\"Persist a fitted pipeline to disk using joblib.\n    Parameters\n    ----------\n    pipeline : sklearn.pipeline.Pipeline\n        Trained pipeline.\n    path : str\n        Destination path ending with .joblib.\n    \"\"\"\n    os.makedirs(os.path.dirname(path), exist_ok=True)",
+        "detail": "src.utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_basic_clean_and_split",
+        "kind": 2,
+        "importPath": "tests.test_data_loading",
+        "description": "tests.test_data_loading",
+        "peekOfCode": "def test_basic_clean_and_split(tmp_path):\n    df = pd.DataFrame({\n        'a': [1, 1, 2],\n        'b': [3, 3, 4],\n        'shares': [10, 10, 20],\n    })\n    p = tmp_path / 'toy.csv'\n    df.to_csv(p, index=False)\n    df_loaded = load_data(str(p))\n    df_clean = basic_clean(df_loaded)",
+        "detail": "tests.test_data_loading",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_numeric_columns",
+        "kind": 2,
+        "importPath": "tests.test_feature_engineering",
+        "description": "tests.test_feature_engineering",
+        "peekOfCode": "def test_get_numeric_columns():\n    df = pd.DataFrame({'num': [1,2,3], 'cat': ['a','b','c'], 'shares':[1,2,3]})\n    cols = get_numeric_columns(df, exclude=['shares'])\n    assert cols == ['num']\ndef test_build_preprocessor_runs():\n    df = pd.DataFrame({'x':[1.0,2.0,3.0], 'shares':[10,20,30]})\n    pre = build_preprocessor(df, target_col='shares')\n    # should provide a get_feature_names_out method after fitting\n    pre.fit(df[['x']], df['shares'])\n    names = pre.get_feature_names_out()",
+        "detail": "tests.test_feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "test_build_preprocessor_runs",
+        "kind": 2,
+        "importPath": "tests.test_feature_engineering",
+        "description": "tests.test_feature_engineering",
+        "peekOfCode": "def test_build_preprocessor_runs():\n    df = pd.DataFrame({'x':[1.0,2.0,3.0], 'shares':[10,20,30]})\n    pre = build_preprocessor(df, target_col='shares')\n    # should provide a get_feature_names_out method after fitting\n    pre.fit(df[['x']], df['shares'])\n    names = pre.get_feature_names_out()\n    assert len(names) == 1",
+        "detail": "tests.test_feature_engineering",
+        "documentation": {}
+    },
+    {
+        "label": "test_compare_model_results_orders_by_rmse",
+        "kind": 2,
+        "importPath": "tests.test_model_evaluation",
+        "description": "tests.test_model_evaluation",
+        "peekOfCode": "def test_compare_model_results_orders_by_rmse():\n    results = {'A': {'rmse': 1.0, 'mae': 1.0, 'r2': 0.5},\n               'B': {'rmse': 0.5, 'mae': 0.5, 'r2': 0.7}}\n    table = compare_model_results(results)\n    assert table.index[0] == 'B'",
+        "detail": "tests.test_model_evaluation",
+        "documentation": {}
+    },
+    {
+        "label": "test_train_and_evaluate_linear",
+        "kind": 2,
+        "importPath": "tests.test_model_training",
+        "description": "tests.test_model_training",
+        "peekOfCode": "def test_train_and_evaluate_linear():\n    # simple linear relationship\n    rng = np.random.RandomState(0)\n    X = pd.DataFrame({'x': rng.randn(100)})\n    y = 3.0 * X['x'] + 2.0 + rng.randn(100) * 0.1\n    pre = build_preprocessor(pd.concat([X, y.rename('shares')], axis=1), target_col='shares')\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)\n    pipe = make_linear_regression_pipeline(pre)\n    model, metrics = train_and_evaluate(pipe, X_train, y_train, X_test, y_test)\n    assert metrics['rmse'] < 0.5",
+        "detail": "tests.test_model_training",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def run(data_path: str, target: str = None, test_size: float = 0.2, random_state: int = 42, outdir: str = \"models\") -> None:\n    \"\"\"Run the full training & evaluation pipeline across multiple models.\n    Parameters\n    ----------\n    data_path : str\n        Path to the CSV dataset.\n    target : str | None, default None\n        Target column name. If None, the function tries to infer it.\n    test_size : float, default 0.2\n        Proportion of data used for testing.",
+        "detail": "main",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,12 @@
+test_that("Ridge/Lasso CV return models, RMSEs, and lambdas", {
+  testthat::skip_if_not_installed("glmnet")
+  df <- make_mock_df(100)
+  df <- filter_recent(df) |> drop_columns(c("url","timedelta","weekday_is_sunday","is_weekend"))
+  sp <- split_train_test(df, seed = 7)
+  ridge <- fit_ridge_cv(sp$train, sp$test)
+  lasso <- fit_lasso_cv(sp$train, sp$test)
+  expect_true(is.list(ridge) && is.numeric(ridge$rmse_min))
+  expect_true(is.list(lasso) && is.numeric(lasso$rmse_min))
+  expect_length(ridge$lambdas, 2)
+  expect_length(lasso$lambdas, 2)
+})
